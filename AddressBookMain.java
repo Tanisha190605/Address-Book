@@ -6,16 +6,9 @@ public class AddressBookMain {
 
         AddressBook addressBook = new AddressBook();
 
-        // UC2
+        addressBook.addContact();
         addressBook.addContact();
 
-        // UC3
-        addressBook.editContact();
-
-        // UC4
-        addressBook.deleteContact();
-
-        // Display updated contact
         addressBook.displayContact();
     }
 }
