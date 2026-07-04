@@ -69,6 +69,30 @@ public class AddressBook {
 
         }
     }
+    public void deleteContact() {
+
+    System.out.print("Enter First Name to Delete: ");
+    String name = sc.nextLine();
+
+    if (person.firstName.equals(name)) {
+
+        person.firstName = null;
+        person.lastName = null;
+        person.address = null;
+        person.city = null;
+        person.state = null;
+        person.zip = null;
+        person.phoneNumber = null;
+        person.email = null;
+
+        System.out.println("Contact Deleted Successfully!");
+
+    } else {
+
+        System.out.println("Contact Not Found!");
+
+    }
+}
 
     public void displayContact() {
 

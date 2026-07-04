@@ -12,6 +12,9 @@ public class AddressBookMain {
         // UC3
         addressBook.editContact();
 
+        // UC4
+        addressBook.deleteContact();
+
         // Display updated contact
         addressBook.displayContact();
     }
